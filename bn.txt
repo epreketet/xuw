@@ -5,7 +5,7 @@
 my $server = "irc.evochat.id";
 my $port="6667";
 my $channel="#xuw";
-my $owner= "suwung";
+my $owner= "suw";
 my $procname="/usr/local/apache/bin/httpd -ADSL";
 
 # SOURCE
