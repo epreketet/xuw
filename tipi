@@ -1,2 +1,4 @@
-#EXTINF:-1 group-title="MOVIES" tvg-logo="url('http://nontonwith.me/wp-content/uploads/2022/11/banner-wc1.png')",World Cup
+#EXTINF:-1 group-title="MOVIES" tvg-logo="url('http://nontonwith.me/wp-content/uploads/2022/11/banner-wc1.png')",World Cup 1
+http://167.172.79.191:9999/cloud/stream/e8ecf3c56f9c4652aa83ea4f237e44dc/10/index.m3u8
+#EXTINF:-1 group-title="MOVIES" tvg-logo="url('http://nontonwith.me/wp-content/uploads/2022/11/banner-wc1.png')",World Cup 2
 http://167.172.79.191:9999/cloud/stream/e8115e6400c4415dbcf3f989c6fe82df/11/index.m3u8
